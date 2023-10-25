@@ -94,6 +94,70 @@
     font-weight: bold;
 }
 
+.sections.two {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+    box-shadow: 0 10px 10px 0px;
+
+}
+
+.sections.two > form > div {
+    display: flex;
+}
+
+.sections.two > form > div > div{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin-right: 150px;
+}
+
+.sections.two > form > button{
+    position: absolute;
+    bottom: -60px;
+    left: 30px;
+    z-index: 1000;
+    background-color: #596D48;
+    color: white;
+    font-weight: bold;
+    padding: 10px 35px;
+    border: 0;
+    border-radius: 6px;
+}
+
+.sections.two > h1{
+    font-size: 24px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+.sections.two > form{
+    padding-bottom: 30px;
+}
+
+.sections.two > form label{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.sections.two > form input:focus{
+    border: 1px #0026fc solid;
+    outline: none;
+    box-shadow: 0 0 5px #0026fc;
+}
+
+.sections.two > form  input{
+    border: 1px #e4e4e4 solid;
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 5px;
+    width: 250px;
+    font-size: 18px;
+}
+
 .sections.three{
     position: relative;
 }
