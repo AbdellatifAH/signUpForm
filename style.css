@@ -61,3 +61,35 @@
     color: white;
 }
 
+#rightPane{
+
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 2;
+    flex-direction: column;
+}
+
+.sections {
+    flex: 1;
+    padding-left: 30px;
+    background-color: #f2f2f2df;
+}
+
+.sections.one{
+    position: relative;
+}
+
+.sections.one > .p1{
+    position: absolute;
+    bottom: 80px;
+    font-size: 18px;
+    font-weight: bold;
+    width: 550px;
+}
+
+.sections.one > p:last-child{
+    position: absolute;
+    bottom: 40px;
+    font-size: 18px;
+    font-weight: bold;
+}
