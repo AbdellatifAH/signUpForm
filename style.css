@@ -1,28 +1,28 @@
-*{
+* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.container{
+.container {
     display: flex;
 }
 
-#unsplash{
-    flex:1;
+#unsplash {
+    flex: 1;
     height: 100vh;
 }
 
-.leftPane{
+.leftPane {
     display: flex;
     flex-shrink: 2;
     position: relative;
 
 }
 
-.logo{
-    background-color: rgb(0,0 ,0, .5);
+.logo {
+    background-color: rgb(0, 0, 0, .5);
     display: flex;
     width: 100%;
     height: 140px;
@@ -32,7 +32,7 @@
     top: 200px;
 }
 
-#odin{
+#odin {
     width: 100px;
     height: 120px;
 }
@@ -42,14 +42,14 @@
     src: url(./Norse-Bold.otf);
 }
 
-.logo > h1{
+.logo>h1 {
     font-family: norse, sans-serif;
     color: white;
     font-size: 90px;
 }
 
-#credit{
-    background-color: rgb(0,0 ,0, .5);
+#credit {
+    background-color: rgb(0, 0, 0, .5);
     color: white;
     width: 100%;
     text-align: center;
@@ -57,11 +57,11 @@
     bottom: 10px;
 }
 
-#credit > a{
+#credit>a {
     color: white;
 }
 
-#rightPane{
+#rightPane {
 
     display: flex;
     flex-grow: 1;
@@ -75,11 +75,11 @@
     background-color: #f2f2f2df;
 }
 
-.sections.one{
+.sections.one {
     position: relative;
 }
 
-.sections.one > .p1{
+.sections.one>.p1 {
     position: absolute;
     bottom: 80px;
     font-size: 18px;
@@ -87,7 +87,7 @@
     width: 550px;
 }
 
-.sections.one > p:last-child{
+.sections.one>p:last-child {
     position: absolute;
     bottom: 40px;
     font-size: 18px;
@@ -104,18 +104,18 @@
 
 }
 
-.sections.two > form > div {
+.sections.two>form>div {
     display: flex;
 }
 
-.sections.two > form > div > div{
+.sections.two>form>div>div {
     display: flex;
     flex-direction: column;
     padding: 15px;
     margin-right: 150px;
 }
 
-.sections.two > form > button{
+.sections.two>form>button {
     position: absolute;
     bottom: -60px;
     left: 30px;
@@ -128,28 +128,34 @@
     border-radius: 6px;
 }
 
-.sections.two > h1{
+.sections.two>h1 {
     font-size: 24px;
     font-weight: 600;
     padding-top: 10px;
 }
 
-.sections.two > form{
+.sections.two>form {
     padding-bottom: 30px;
 }
 
-.sections.two > form label{
+.sections.two>form label {
     font-size: 14px;
     font-weight: 500;
 }
 
-.sections.two > form input:focus{
+.sections.two>form input:focus {
     border: 1px #0026fc solid;
     outline: none;
     box-shadow: 0 0 5px #0026fc;
 }
 
-.sections.two > form  input{
+.sections.two>form input:invalid {
+    border: 1px #a40000 solid;
+    outline: none;
+    box-shadow: 0 0 5px #a40000;
+}
+
+.sections.two>form input {
     border: 1px #e4e4e4 solid;
     border-radius: 5px;
     background-color: #ffffff;
@@ -158,15 +164,13 @@
     font-size: 18px;
 }
 
-.sections.three{
+.sections.three {
     position: relative;
 }
 
-.sections.three > p{
+.sections.three>p {
     position: absolute;
     top: 80px;
     font-weight: bold;
 
 }
-
-
