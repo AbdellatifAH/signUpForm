@@ -93,3 +93,16 @@
     font-size: 18px;
     font-weight: bold;
 }
+
+.sections.three{
+    position: relative;
+}
+
+.sections.three > p{
+    position: absolute;
+    top: 80px;
+    font-weight: bold;
+
+}
+
+
