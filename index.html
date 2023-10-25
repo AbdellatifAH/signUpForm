@@ -1,12 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-UP Form</title>
     <link rel="stylesheet" href="./style.css">
 </head>
-<body>
 
+<body>
+    <div class="container">
+        <div class="leftPane">
+            <img id="unsplash" src="./img/unsplash.jpg" alt="unsplash">
+            <div class="logo">
+                <img id="odin" src="./img/odinLogo.png" alt="Odin Logo">
+                <h1>odin</h1>
+            </div>
+            <div id="credit">Photo by <a href="https://unsplash.com/@haliewestphoto">Halie West</a> on <a
+                    href="https://unsplash.com/">Unsplash</a></div>
+        </div>
+        <div id="rightPane">
+            <div class="sections one">
+                <div class="p1">
+                    <p>This is not a real online service! You know you need something like this in your life to help you
+                        realize
+                        your deepest dreams. <br>Sign up <em>now</em> to get started.</p>
+                </div>
+                <p>
+                    You <em>know</em> you want to.
+                </p>
+            </div>
+            <div class="sections two">
+                <h1>Let's do this!</h1>
+                <form action=# method="post">
+                    <div>
+                        <div><label for="name">FIRST NAME</label><input type="text" id="name"></div>
+                        <div><label for="last-name">LAST NAME</label><input type="text" id="last-name"></div>
+                    </div>
+                    <div>
+                        <div><label for="email">EMAIL</label><input type="email" id="email"></div>
+                        <div><label for="phone">PHONE NUMBER</label><input type="tel" id="phone"></div>
+                    </div>
+                    <div>
+                        <div> <label>PASSWORD</label><input name="password" id="password" type="password"
+                                onkeyup="onChange()" /></div>
+                        <div><label>CONFIRM PASSWORD</label><input name="confirm" id="confirm" type="password"
+                                onkeyup="onChange()" /></div>
+                    </div>
+                    <button>Create Account</button>
+                </form>
+            </div>
+            <div class="sections three">
+                <p>Already have an account ? Log in</p>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
